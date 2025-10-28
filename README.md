@@ -227,16 +227,11 @@ The system uses DeepSeek API to analyze user intent and generate search keywords
 3. Play, pause, or skip tracks
 4. Click "Open in YouTube" to open in browser
 
-## Troubleshooting
+## Demo
 
-### DeepSeek API Insufficient Balance
-If you encounter "Insufficient Balance" error, you need to recharge your DeepSeek account.
+![Project Demo](assets/vedio.gif)
+![Project Demo](assets/vedio1.gif)
 
-### YouTube API Quota Exceeded
-YouTube API has daily request limits. If you need more quota, you can request it in Google Cloud Console.
-
-### Login Issues
-Make sure Firebase Authentication is properly configured and Email/Password authentication is enabled.
 
 ## Contributing
 
