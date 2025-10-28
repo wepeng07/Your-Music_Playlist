@@ -64,8 +64,8 @@ jobs:
     - name: Build application
       run: npm run build
       env:
-        OPENAI_API_KEY: sk-d46032d5740341cda4679463d17c4409
-        YOUTUBE_API_KEY: AIzaSyDeucaVdVNf2J0QaD8SqNpzmRjAgYfEy6Y
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
         FIREBASE_PRIVATE_KEY: ${{ secrets.FIREBASE_PRIVATE_KEY }}
         FIREBASE_CLIENT_EMAIL: ${{ secrets.FIREBASE_CLIENT_EMAIL }}
