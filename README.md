@@ -2,6 +2,11 @@
 
 A smart music recommendation web application built with Next.js, React, DeepSeek API, YouTube API, and Firebase.
 
+## Demo
+
+![Project Demo](assets/vedio.gif)
+![Project Demo](assets/vedio1.gif)
+
 ## Features
 
 - AI-Powered Recommendations: Uses DeepSeek API for semantic music recommendations based on user descriptions
@@ -226,11 +231,6 @@ The system uses DeepSeek API to analyze user intent and generate search keywords
 2. Switch to "Playlist" tab to view
 3. Play, pause, or skip tracks
 4. Click "Open in YouTube" to open in browser
-
-## Demo
-
-![Project Demo](assets/vedio.gif)
-![Project Demo](assets/vedio1.gif)
 
 
 ## Contributing
